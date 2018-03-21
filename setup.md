@@ -113,5 +113,6 @@ Database Connection
 ### Get the Example Project Code
 
 ```
+cd ..
 ./get_account_code.sh
 ```
