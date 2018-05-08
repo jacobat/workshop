@@ -124,5 +124,5 @@ Database Connection
 
 ```
 cd ..
-./get_account_code.sh
+./get-account-code.sh
 ```
