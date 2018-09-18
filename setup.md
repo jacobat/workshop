@@ -69,16 +69,6 @@ cd workshop
 cd verify_setup
 ```
 
-### Export the POSTURE Environment Variable
-
-```
-export POSTURE=development
-```
-
-If this is not done, development dependencies will not be installed in the next step.
-
-You can also add this to your profile scripts so that it is set consequently each time a new terminal is started.
-
 ### Install the Gems
 
 ```
