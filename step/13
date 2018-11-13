@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Idempotent Deposit"
 
 # Commit: [STEP] Idempotent deposit
-checkout 0c8db83 account-component
+checkout e87f300 account-component
