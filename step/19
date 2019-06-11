@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Review Funds Transfer"
 
 # Commit: [STEP] Initiate Transfer
-checkout 7f94ad2 funds-transfer-component
+checkout cdfb8a7 funds-transfer-component
