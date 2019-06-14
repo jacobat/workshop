@@ -1,0 +1,101 @@
+http://plantuml.com/sequence-diagram
+
+@startuml
+actor Bob #red
+' The only difference between actor
+'and participant is the drawing
+participant Alice
+participant "I have a really\nlong name" as L #99FF99
+/' You can also declare:
+   participant L as "I have a really\nlong name"  #99FF99
+  '/
+
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml
+
+
+@startuml
+Alice -> Bob: Authentication Request
+...
+Bob --> Alice: Authentication Response
+...5 minutes later...
+Bob --> Alice: Bye !
+@enduml
+
+
+@startuml
+Bob \\- Alice
+Bob \\-- Alice
+Bob //-- Alice
+@enduml
+
+
+@startuml
+Bob ->x Alice
+Bob -> Alice
+Bob ->> Alice
+Bob -\ Alice
+Bob \\- Alice
+Bob //-- Alice
+
+Bob ->o Alice
+Bob o\\-- Alice
+
+Bob <-> Alice
+Bob <->o Alice
+@enduml
+
+
+@startuml
+Alice->Bob : hello
+note left: this is a first note
+
+Bob->Alice : ok
+note right: this is another note
+
+Bob->Bob : I am thinking
+note left
+  a note
+  can also be defined
+  on several lines
+end note
+@enduml
+
+
+@startuml
+Alice -> Bob: Authentication Request
+
+alt successful case
+
+  Bob -> Alice: Authentication Accepted
+
+else some kind of failure
+
+  Bob -> Alice: Authentication Failure
+  group My own label
+    Alice -> Log : Log attack start
+      loop 1000 times
+          Alice -> Bob: DNS Attack
+      end
+    Alice -> Log : Log attack end
+  end
+
+else Another type of failure
+
+   Bob -> Alice: Please repeat
+
+end
+@enduml
+
+
+@startuml
+header Page Header
+footer Page %page% of %lastpage%
+
+title Example Title
+
+Alice -> Bob : message 1
+Alice -> Bob : message 2
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+
+participant "Funds Transfer" as FT
+participant Account as Acct
+
+->> FT : Transfer
+
+group Withdrawal
+
+  FT ->> Acct : Withdraw
+  Acct -> Acct : Withdrawn
+  Acct -->> FT : Withdrawn
+
+@enduml
