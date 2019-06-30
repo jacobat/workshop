@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source "${BASH_SOURCE%/*}/step_init.sh"
+
+title "Client Library (Deposit)"
+
+# Commit: [STEP] Client (Deposit)
+checkout 45c4c60 account-component
