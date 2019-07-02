@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Funds Transfer Withdrawal"
 
 # Commit: [STEP] Withdrawal
-checkout 93e0a42 funds-transfer-component
+checkout 5e2cebe funds-transfer-component
