@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source "${BASH_SOURCE%/*}/step_init.sh"
+
+title "Funds Transfer Send Deposit"
+
+# Commit: [STEP] Send Deposit to Account
+checkout 762c651 funds-transfer-component
