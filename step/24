@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Funds Transfer Send Deposit"
 
 # Commit: [STEP] Send Deposit to Account
-checkout 9956ef4 funds-transfer-component
+checkout d30c310 funds-transfer-component
