@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source "${BASH_SOURCE%/*}/step_init.sh"
+
+title "Transfer Cancellation"
+
+# Commit: [STEP] Transfer Cancellation
+checkout 3d92b5c funds-transfer-component
