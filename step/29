@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source "${BASH_SOURCE%/*}/step_init.sh"
+
+title "Transfer Command"
+
+# Commit: [STEP] Transfer Command
+checkout 279b8d5 funds-transfer-component
