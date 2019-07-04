@@ -1,0 +1,24 @@
+@startuml
+
+participant "Funds Transfer" as FT
+participant Account as Acct
+
+->> FT : Transfer
+
+== Withdrawal ==
+
+FT ->> Acct : Withdraw
+
+Acct -->> FT : Withdrawn
+
+== Deposit ==
+
+FT ->> Acct : Deposit
+
+Acct -->> FT : Deposited
+
+== Complete ==
+
+FT ->> FT : Transfered
+
+@enduml
