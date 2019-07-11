@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+source "${BASH_SOURCE%/*}/step_init.sh"
+
+title "System Demo"
+
+checkout master account-component
+
+checkout master funds-transfer-component
