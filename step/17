@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Withdrawal Reservation"
 
 # Commit: [STEP] Withdrawal reservation
-checkout 083f1cb account-component
+checkout 820de31 account-component
