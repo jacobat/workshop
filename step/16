@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Deposit Reservation"
 
 # Commit: [STEP] Deposit reservation
-checkout 8155012 account-component
+checkout 640266b account-component

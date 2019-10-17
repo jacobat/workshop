@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Reject Withdrawal"
 
 # Commit: [STEP] Reject withdrawal
-checkout 0bf4377 account-component
+checkout 54ee7fe account-component

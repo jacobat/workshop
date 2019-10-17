@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Funds Transfer Deposit to-do"
 
 # Commit: [STEP] Deposit to-do
-checkout 432216c funds-transfer-component
+checkout da5e667 funds-transfer-component
