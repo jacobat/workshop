@@ -82,7 +82,7 @@ A database named `message_store` along with a user of the same name will be crea
 Run:
 
 ```
-bundle exec evt-pg-recreate-db
+bundle exec mdb-recreate-db
 ```
 
 ### Copy the Database Settings Example File
