@@ -14,6 +14,7 @@
 If you've installed Postgres through Homebrew on Mac:
 
 ```
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ```
 
