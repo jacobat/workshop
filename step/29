@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Transfer Command"
 
 # Commit: [STEP] Transfer Command
-checkout df72d24 funds-transfer-component
+checkout 864fcb3 funds-transfer-component

@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Transfer Cancellation"
 
 # Commit: [STEP] Transfer Cancellation
-checkout b14d30d funds-transfer-component
+checkout a1884b3 funds-transfer-component

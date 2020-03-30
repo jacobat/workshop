@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Client Library (Deposit)"
 
 # Commit: [STEP] Client (Deposit)
-checkout ad89658 account-component
+checkout bd977ea account-component
