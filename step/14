@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Idempotent Withdrawal"
 
 # Commit: [STEP] Idempotent withdrawal
-checkout 632f14b account-component
+checkout 81acbf0 account-component

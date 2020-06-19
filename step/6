@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Store"
 
 # Commit: [STEP] Store
-checkout 1ac9c70 account-component
+checkout b77aaec account-component

@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Funds Transfer Handle Deposited"
 
 # Commit: [STEP] Handle Deposited
-checkout d690a03 funds-transfer-component
+checkout 7d0dfb5 funds-transfer-component
