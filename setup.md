@@ -40,6 +40,16 @@ When Postgres is installed on a Linux machine, it is often configured by default
 
 In particular, many Postgres setups on Linux require passwords for all database connections over TCP. This will either need to be disabled, or passwords will have to be configured for the role used during the workshop exercises.
 
+#### Warning About Docker and Kubernetes
+
+Running Postgres in Docker or Kubernetes can be problematic for the kinds of workflows used in the workshop.
+
+The database used in the workshop will be dropped and recreated frequently. Running Postgres on a remote system, like a container, will require explicit configuration of security and access control for the database every time the database is dropped and re-created. This will inevitability cause a student to fall behind unless they have significant fluency with the technologies in-use.
+
+If you choose to run Postgres in a container, you should already be at a level of significant fluency with both the container technology and with Postgres. If you're not fluent in these technologies, it's recommended that you install Postgres directly in the host system.
+
+For Mac users, using Homebrew to install Postgres is recommended. For Linux users, the usual package manager for the platform should be used.
+
 ### Clone this Repository
 
 This is the repository that we'll be working with through the course the workshop.
