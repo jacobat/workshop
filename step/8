@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Controls"
 
 # Commit: [STEP] Controls
-checkout 71560af account-component
+checkout 6da2a08 account-component
