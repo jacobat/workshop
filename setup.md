@@ -13,14 +13,19 @@
 If you've installed Postgres through Homebrew on Mac:
 
 ```
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+brew services start postgres
 ```
 
 If you don't want to start it as a daemon, open a new terminal window and run:
 
 ```
 postgres -D /usr/local/var/postgres
+```
+
+If you have an M1 Mac, run:
+
+```
+postgres -D /opt/homebrew/var/postgres
 ```
 
 Note that closing the terminal window will cause the database to shut down. If you've started the database with `Postgres -D`, keep the terminal window open for as long as you need to use the database.
@@ -117,7 +122,6 @@ If everything is working correctly, you should see the following output:
 Running /Users/sbellware/projects/eventide/tutorial/account-component-skeleton/test/automated/database_connection.rb
 Database Connection
   Connects on first use
-
 ```
 
 ### Get the Example Project Code
