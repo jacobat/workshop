@@ -1,11 +1,10 @@
-# Laptop Setup - Ruby Microservices Workshop
+# Laptop Setup - Eventide Workshop
 
 ## Software Prerequisites
 
 - Ruby (minimum version: 2.4)
 - Postgres (minimum version: 9.5)
 - Git (minimum version: 2)
-- GCC (already included with Apple XCode Developer Tools)
 
 ## Setup
 
