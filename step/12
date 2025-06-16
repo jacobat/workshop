@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Expected Version (Close)"
 
 # Commit: [STEP] Expected version (Close)
-checkout 16ea572 account-component
+checkout e80d7f1 account-component

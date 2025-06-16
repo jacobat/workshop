@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Exercise Reissued Deposit"
 
 # Commit: [STEP] Exercise reissued deposit
-checkout f9fc934 account-component
+checkout db64dde account-component

@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Close"
 
 # Commit: [STEP] Close
-checkout 58ec562 account-component
+checkout ae1f2aba account-component

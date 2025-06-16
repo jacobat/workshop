@@ -5,4 +5,4 @@ source "${BASH_SOURCE%/*}/step_init.sh"
 title "Review Random IDs"
 
 # Commit: [STEP] Random IDs are used by exercises and tests
-checkout 37e4adb account-component
+checkout 16e1e5b8 account-component
